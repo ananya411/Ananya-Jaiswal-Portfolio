@@ -24,14 +24,14 @@ const education = [
         degree: "Intermediate: PCM",
         major: "Percentage: 81%",
         location: "Uttar Pradesh, India",
-        duration: "Apr' 21 — Mar' 23",
+        duration: "2022 — 2023",
     },
     {
         school: "DAV Public School",
         degree: "Matriculation",
         major: "Percentage: 87%",
         location: "Uttar Pradesh, India",
-        duration: "Apr' 19 — Mar' 21",
+        duration: "2020 — 2021",
     },
 ];
 
@@ -40,7 +40,7 @@ const internships = [
         role: "Summer Trainee – Data Structures and Algorithms",
         company: "Center of Professional Enhancement",
         location: "Punjab, IN",
-        duration: "Jun. 2025 – Jul. 2025",
+        duration: "Jun. 2025 – Jul. 2025 \u00A0\u00A0 | \u00A0",
         points: [
             "Built a Warehouse Routing System implementing Dijkstra’s Algorithm to compute shortest paths and optimize delivery efficiency.",
             "Implemented core data structures including graphs, stacks, queues and trees to solve real-world problems.",
@@ -52,7 +52,7 @@ const internships = [
         role: "Deloitte Experience Program",
         company: "Deloitte",
         location: "Remote",
-        duration: "Apr. 2025 - Jun. 2025",
+        duration: "Apr. 2025 - Jun. 2025 \u00A0\u00A0 | \u00A0",
         points: [
             "Performed data reconciliation for large datasets to ensure accuracy and consistency across Deloitte platforms.",
             "Analyzed business requirements for digital transformation projects and proposed scalable tech solutions.",
