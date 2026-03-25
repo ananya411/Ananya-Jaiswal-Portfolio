@@ -23,6 +23,17 @@ const internships = [
             "Gained hands-on experience in object-oriented design, problem-solving, and implementing core data structures through assessments and practical assignments.",
         ],
     },
+    {
+        role: "Deloitte Experience Program",
+        company: "Deloitte",
+        location: "Remote",
+        duration: "Apr. 2025 - Jun. 2025 \u00A0\u00A0 | \u00A0",
+        points: [
+            "Performed data reconciliation for large datasets to ensure accuracy and consistency across Deloitte platforms.",
+            "Analyzed business requirements for digital transformation projects and proposed scalable tech solutions.",
+            "Collaborated with cross-functional teams in consulting workflows to streamline client deliverables.",
+        ],
+    },
 ];
 
 const awards = [
