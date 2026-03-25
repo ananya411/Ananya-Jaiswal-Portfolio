@@ -4,12 +4,12 @@ import RevealOnScroll from "./RevealOnScroll";
 import TechnicalArsenal from "./TechnicalArsenal";
 
 const milestones = [
-    { title: "Hackathon Winner", desc: "InnovateX Hackathon at IIIT Kalyani." },
-    { title: "AWS Cloud Mentor", desc: "Guided 50+ students in cloud sessions." },
     { title: "Predictive Scaling Engine", desc: "ML-based infrastructure automation." },
-    { title: "Warehouse Routing System", desc: "Shortest path optimization with Dijkstra." },
-    { title: "Data Reconciliation", desc: "Ensuring accuracy for Deloitte datasets." },
-    { title: "Full-Stack Developer", desc: "Actively building and deploying modern apps." },
+    { title: "Sports Management System", desc: "Full-stack sports platform with React." },
+    { title: "AWS Cloud Mentor", desc: "Guided 50+ students in cloud sessions." },
+    { title: "150+ LeetCode", desc: "Strong problem-solving & algorithms." },
+    { title: "5-Star HackerRank", desc: "Top ratings in Java, JS and DBMS." },
+    { title: "Frontend Developer", desc: "React certification." },
 ];
 
 export default function AboutSection() {

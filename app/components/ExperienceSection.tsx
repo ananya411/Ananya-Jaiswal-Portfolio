@@ -11,30 +11,6 @@ import oracleCert from "../assets/certificates/oracle.png";
 
 
 
-const education = [
-    {
-        school: "Lovely Professional University",
-        degree: "Bachelor of Technology",
-        major: "Computer Science and Engineering | CGPA: 6.62",
-        location: "Punjab, India",
-        duration: "Aug' 23 — Present",
-    },
-    {
-        school: "DAV Public School",
-        degree: "Intermediate: PCM",
-        major: "Percentage: 81%",
-        location: "Uttar Pradesh, India",
-        duration: "2022 — 2023",
-    },
-    {
-        school: "DAV Public School",
-        degree: "Matriculation",
-        major: "Percentage: 87%",
-        location: "Uttar Pradesh, India",
-        duration: "2020 — 2021",
-    },
-];
-
 const internships = [
     {
         role: "Summer Trainee – Data Structures and Algorithms",
@@ -42,67 +18,28 @@ const internships = [
         location: "Punjab, IN",
         duration: "Jun. 2025 – Jul. 2025 \u00A0\u00A0 | \u00A0",
         points: [
-            "Built a Warehouse Routing System implementing Dijkstra’s Algorithm to compute shortest paths and optimize delivery efficiency.",
-            "Implemented core data structures including graphs, stacks, queues and trees to solve real-world problems.",
-            "Applied Object-Oriented Programming principles to design modular and scalable system components.",
-            "Solved structured coding assignments and algorithmic challenges demonstrating strong problem-solving ability.",
+            "Completed a 35+ hour live summer training focused on Programming, OOP concepts, and Data Structures & Algorithms.",
+            "Built a Warehouse Management System project using Dijkstra’s Algorithm to optimize pathfinding and improve efficiency.",
+            "Gained hands-on experience in object-oriented design, problem-solving, and implementing core data structures through assessments and practical assignments.",
         ],
     },
-    {
-        role: "Deloitte Experience Program",
-        company: "Deloitte",
-        location: "Remote",
-        duration: "Apr. 2025 - Jun. 2025 \u00A0\u00A0 | \u00A0",
-        points: [
-            "Performed data reconciliation for large datasets to ensure accuracy and consistency across Deloitte platforms.",
-            "Analyzed business requirements for digital transformation projects and proposed scalable tech solutions.",
-            "Collaborated with cross-functional teams in consulting workflows to streamline client deliverables.",
-        ],
-    },
-];
-
-const tools = [
-    "Java",
-    "Node.js",
-    "TypeScript",
-    "Python",
-    "React",
-    "Next.js",
-    "Express.js",
-    "Laravel",
-    "PostgreSQL",
-    "MongoDB",
-    "Redis",
-    "Docker",
-    "Git",
-    "Linux",
-    "REST APIs",
-    "GraphQL",
-    "AWS",
-    "Nginx",
-    "Sequelize",
-    "Prisma",
-    "Framer Motion",
-    "Three.js",
-    "Tailwind CSS",
-    "Figma",
 ];
 
 const awards = [
     {
-        title: "AWS Cloud Mentor",
-        org: "Guided 50+ students during hands-on AWS cloud computing and coding sessions.",
-        year: "Mentorship",
+        title: "AWS Community Mentor",
+        org: "Core Team Member (Cloud Computing & Coding). Guided 50+ students during hands-on AWS cloud and coding sessions.",
+        year: "Mentor",
     },
     {
-        title: "Hackathon Winner",
-        org: "Winner of a Hackathon at IIIT Kalyani, competing against top student developers with innovative AI solutions.",
-        year: "Winner",
+        title: "LeetCode Specialist",
+        org: "Solved 150+ algorithmic problems on LeetCode, demonstrating strong problem-solving skills and algorithmic thinking.",
+        year: "150+",
     },
     {
-        title: "Full-Stack Developer",
-        org: "Actively developing and deploying modern full-stack applications with optimal performance.",
-        year: "Active",
+        title: "HackerRank 5-Star",
+        org: "Earned 5-star ratings on HackerRank in Java, JavaScript and DBMS, highlighting technical proficiency.",
+        year: "5-Star",
     },
 ];
 
@@ -248,37 +185,6 @@ export default function ExperienceSection() {
                                     <div className="awards-row-body">
                                         <h3 className="awards-row-title">{award.title}</h3>
                                         <p className="awards-row-desc">{award.org}</p>
-                                    </div>
-                                </div>
-                            </RevealOnScroll>
-                        ))}
-                    </div>
-                </div>
-            </section>
-            {/* Education */}
-            <section className="education-section" id="education">
-                <div className="section-container">
-                    <RevealOnScroll>
-                        <p className="section-label">Learning</p>
-                    </RevealOnScroll>
-                    <RevealOnScroll delay={0.15}>
-                        <h1 className="section-title">
-                            Education.
-                        </h1>
-                    </RevealOnScroll>
-
-                    <div className="edu-list">
-                        {education.map((edu, i) => (
-                            <RevealOnScroll key={i} delay={i * 0.12}>
-                                <div className="edu-row">
-                                    <div className="edu-row-left">
-                                        <h3 className="edu-school">{edu.school}</h3>
-                                        <p className="edu-degree">{edu.degree}</p>
-                                        <p className="edu-major">{edu.major}</p>
-                                    </div>
-                                    <div className="edu-row-right">
-                                        <p className="edu-location">{edu.location}</p>
-                                        <p className="edu-duration">{edu.duration}</p>
                                     </div>
                                 </div>
                             </RevealOnScroll>

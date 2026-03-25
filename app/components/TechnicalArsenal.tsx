@@ -17,26 +17,24 @@ const skills: Skill[] = [
     // Languages
     { name: "Java", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
     { name: "Python", category: "Languages", icon: "https://cdn.simpleicons.org/python/3776AB" },
-    { name: "C", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" },
-    { name: "SQL", category: "Languages", icon: "https://cdn.simpleicons.org/sqlite/003B57" },
     { name: "JavaScript", category: "Languages", icon: "https://cdn.simpleicons.org/javascript/F7DF1E" },
     { name: "HTML", category: "Languages", icon: "https://cdn.simpleicons.org/html5/E34F26" },
-    { name: "CSS", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
 
-    // Frameworks
+    // Frameworks & Tech
     { name: "ReactJS", category: "Frameworks", icon: "https://cdn.simpleicons.org/react/61DAFB" },
     { name: "NodeJS", category: "Frameworks", icon: "https://cdn.simpleicons.org/nodedotjs/339933" },
-    { name: "ExpressJS", category: "Frameworks", icon: "https://cdn.simpleicons.org/express/eeeeee" },
-    { name: "Tailwind CSS", category: "Frameworks", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+    { name: "CSS", category: "Frameworks", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
 
     // Databases
     { name: "MongoDB", category: "Databases", icon: "https://cdn.simpleicons.org/mongodb/47A248" },
+    { name: "MySQL", category: "Databases", icon: "https://cdn.simpleicons.org/mysql/4479A1" },
 
-    // Tools / Platforms
+    // Tools
     { name: "Git", category: "Tools", icon: "https://cdn.simpleicons.org/git/F05032" },
     { name: "GitHub", category: "Tools", icon: "https://cdn.simpleicons.org/github/white" },
-    { name: "VS Code", category: "Tools", icon: "https://cdn.simpleicons.org/visualstudiocode/007ACC" },
-    { name: "Google Colab", category: "Tools", icon: "https://cdn.simpleicons.org/googlecolab/F9AB00" },
+    { name: "Data Structures & Algos", category: "Tools", icon: "https://cdn.simpleicons.org/leetcode/FFA116" },
+    { name: "Problem-Solving", category: "Tools", icon: "" },
+    { name: "Responsive Design", category: "Tools", icon: "" },
 ];
 
 const categories: Category[] = [

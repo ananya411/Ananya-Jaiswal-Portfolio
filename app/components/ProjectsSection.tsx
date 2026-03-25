@@ -11,22 +11,22 @@ const projects = [
         subtitle: "AUTOSCALING ENGINE | 2026",
         title: "AI Predictive Engine",
         description:
-            "A real-time infrastructure autoscaling engine that transitions from reactive to predictive scaling using custom Machine Learning (OLS Linear Regression implemented from scratch).",
+            "Engineered a real-time infrastructure autoscaling engine that transitions from reactive to predictive scaling using custom Machine Learning. Implemented an OLS Linear Regression model from scratch in JavaScript to forecast CPU load and evaluate prediction confidence. Developed a full-stack real-time dashboard utilizing Web Sockets for 5-second telemetry updates, featuring glass morphism UI and role-based authentication.",
         image: aiImg,
-        tech: ["REACT.JS", "EXPRESS.JS", "ZUSTAND", "ML", "WEBSOCKETS"],
-        live: "https://ai-predictive-autoscalingengine.vercel.app/",
-        source: "",
+        tech: ["REACT.JS", "NODE.JS", "ML", "WEBSOCKETS"],
+        live: "",
+        source: "https://github.com/ananya411/Ai-Predictive-Autoscalingengine",
     },
     {
         tag: "FULL STACK",
         subtitle: "SPORTS MANAGEMENT | 2025",
         title: "Sports Manager",
         description:
-            "A full-stack system for players and coaches to manage registrations, match schedules, venue bookings, and performance records efficiently.",
+            "Designed and developed a sports Management System using React.js and Node.js for efficient management of teams and matches. Implemented REST APIs, authentication and database integration to handle players and match data securely. Improved usability by providing real-time updates and structured data management for sports administrators.",
         image: sportsImg,
         tech: ["REACT.JS", "NODE.JS", "MONGODB", "REST APIs"],
-        live: "https://sport-pro-lovat.vercel.app/",
-        source: "",
+        live: "",
+        source: "https://github.com/ananya411/sports-management",
     },
 ];
 
